@@ -18,6 +18,25 @@ struct Item {
 	bool operator<(const Item &) const;
 };
 
+//this could all go in item.cpp, but whatevs
+Item::Item(double, double)
+{
+    //items have name
+    double value;
+    double weight;
+
+}
+
+double Item::ratio() const
+{
+    return value/weight;
+}
+
+void Item::print() const
+{
+    //print stuff
+}
+
 // Compares one item's ratio to another
 bool Item::operator<(const Item & right) const {
     // Fill this in here!
