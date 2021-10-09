@@ -1,7 +1,0 @@
-Number of items in knapsack: 2
-Total Weight: 8
-Total Profit: 63
-
-Items in the knapsack: 
-2 27 3
-4 36 5
