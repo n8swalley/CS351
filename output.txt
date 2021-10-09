@@ -1,8 +1,0 @@
-Number of items in knapsack: 3
-Total Weight: 24
-Total Profit: 160
-
-Items in the knapsack: 
-orange 50 5
-strawberry 100 14
-tangerine 10 5
