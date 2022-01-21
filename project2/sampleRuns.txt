@@ -1,0 +1,119 @@
+// Sample Run for 20 items and knapsack capacity of 69(tst20.txt)
+
+Enter file name and extension: tst20.txt
+
+Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 8
+Knapsack capacity: 69 lbs
+Total weight: 68 lbs
+Total profit: 173 pesos
+
+Items in the knapsack: 
+20 23 15
+19 22 9
+18 5 12
+17 23 8
+16 33 2
+10 31 9
+3 7 6
+1 29 7
+
+Refinement of Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 8
+Knapsack capacity: 69 lbs
+Total weight: 68 lbs
+Total profit: 173 pesos
+
+Items in the knapsack: 
+20 23 15
+19 22 9
+18 5 12
+17 23 8
+16 33 2
+10 31 9
+3 7 6
+1 29 7
+
+// Sample Run for 100 items and knapsack capacity 269 (tst100.txt)
+
+Please enter the filename you'd like to create: tst100
+
+Enter file name and extension: tst100.txt
+
+Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 11
+Knapsack capacity: 269 lbs
+Total weight: 253 lbs
+Total profit: 1334 pesos
+
+Items in the knapsack: 
+83 50 1
+82 139 26
+74 126 3
+72 55 4
+66 50 18
+64 191 75
+50 176 15
+48 51 22
+30 155 9
+19 148 1
+14 193 79
+
+Refinement of Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 11
+Knapsack capacity: 269 lbs
+Total weight: 253 lbs
+Total profit: 1334 pesos
+
+Items in the knapsack: 
+83 50 1
+82 139 26
+74 126 3
+72 55 4
+66 50 18
+64 191 75
+50 176 15
+48 51 22
+30 155 9
+19 148 1
+14 193 79
+
+// Sample run for 1000 items with knapsack capacity of 200 (tst1000.txt)
+
+Enter file name and extension: tst1000.txt
+
+Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 10
+Knapsack capacity: 200 lbs
+Total weight: 199 lbs
+Total profit: 11785 pesos
+
+Items in the knapsack: 
+981 975 27
+969 1613 55
+881 855 20
+859 1881 60
+653 342 8
+618 1881 2
+352 1098 11
+223 316 7
+219 908 8
+52 1916 1
+
+Refinement of Dynamic Programming Approach for 0-1 Knapsack:
+Total number of items in knapsack: 10
+Knapsack capacity: 200 lbs
+Total weight: 199 lbs
+Total profit: 11785 pesos
+
+Items in the knapsack: 
+981 975 27
+969 1613 55
+881 855 20
+859 1881 60
+653 342 8
+618 1881 2
+352 1098 11
+223 316 7
+219 908 8
+52 1916 1

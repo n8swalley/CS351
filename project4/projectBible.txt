@@ -1,0 +1,63 @@
+*********************** Roadmap for Project 4: BRANCH AND BOUND ***********************
+codename: BUTLER BOUND
+
+>>>     Read the book (pages: 251-262 )                                       [STARTED]
+
+^^^     Write what we want the program to do in plain English               [COMPLETED]
+
+Plain Enlgish Description of Project:
+[
+
+Okay so basically there seem's to be two types branch-and-bound pruning methods: 1) Best-First Search and 2) Breadth-First Search.
+They are slightly different which is too much to type but the important thing is that breadth-first search has no advantage over 
+depth-first search (project 2). Best-first search is an improvement by using the bound to do more than just determine wheter a node 
+is promising. After visiting all the children of a given node, we can look at all the promising, unexpanded nodes and expand beyond
+the one with the best bound. Remember, a node is promising if it its bound is better than the best value found so far. In this way we 
+will arrive at an optimal solution more quickly than if we simply proceeded blindly in a predetermined order. 
+
+The implementation of best-first search consists of a simple modification to breadth-first search. Instead of using a queue, we use a priority queue.
+Luckily, we already have the PQ! So, FOR THIS PROJECT, I THINK WE ARE IMPLEMENTING THE BEST-FIRST APPROACH. 
+
+Here's the pseudocode for best first search:
+
+  initialize (PQ);                         // Initialize PQ to be empty.
+  v = root of T;
+  best = value(v);
+  insert (PQ, v);  // adds v to the PQ
+  while (! empty (PQ)) {                   // Remove node with best
+     remove (PQ, v);                       // bound.
+
+   if (bound (v) is better than best)         // Check if node is still
+          for (each child u of v) {         // promising.
+                 if (value(u) is better than best)
+                        (best = value (u);
+                 if (bound (u) is better than best)
+                        insert (PQ, u);       // insert into PQ if bound is better than best. 
+          }
+   }
+}
+
+
+
+]
+
+
+***     Wireframe project 4 on jamboard (or whatever)                       [INCOMPLETE]
+
+...      Prolly want to watch some Bari videos, look at geeksforgeeks.com   [INCOMPLETE]
+Links:
+[
+
+       https://www.kancloud.cn/leavor/cplusplus/fig6-2_0.jpg#ch06fig03
+
+]
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+###     Sign our names when all tasks have been completed:                  [INCOMPLETE]
